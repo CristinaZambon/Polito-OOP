@@ -257,6 +257,6 @@ public final class TestApp {
     	String vouels = name.replaceAll("[^AEIOU]", "");
     	return (consonants+vouels).substring(0,3);
     }
-    
+     
     final static int CURRENT_YEAR=java.time.LocalDate.now().getYear();
 }
